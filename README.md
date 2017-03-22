@@ -22,7 +22,7 @@ pod "dnaTagController"
 
 ## Author
 
-dan_isacson@hotmail.com, dan@themobilelife.com
+Dan Isacson
 
 ## License
 
