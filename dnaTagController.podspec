@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 A tool to use on collections (that implement the Taggable protocol). It allows you to search for elements containing tags.
                        DESC
 
-  s.homepage         = 'https://github.com/dan_isacson@hotmail.com/dnaTagController'
+  s.homepage         = 'https://github.com/aborren/dnaTagController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dan Isacson' => 'dan_isacson@hotmail.com' }
