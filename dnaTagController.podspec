@@ -25,7 +25,7 @@ A tool to use on collections (that implement the Taggable protocol). It allows y
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dan Isacson' => 'dan_isacson@hotmail.com' }
-  s.source           = { :git => 'https://github.com/dan_isacson@hotmail.com/dnaTagController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aborren/dnaTagController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
