@@ -1,9 +1,13 @@
 use_frameworks!
 
 target 'dnaTagController_Example' do
-  pod 'dnaTagController', :path => '../'
-
-  target 'dnaTagController_Tests' do
+    
+    pod 'dnaTagController', :path => '../'
+    
+    
+    target 'dnaTagController_Tests' do
+        
+    pod 'dnaTagController', :path => '../'
     inherit! :search_paths
 
     

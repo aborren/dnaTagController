@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C89D899BD527DFD1348460720AB95BF /* Pods-dnaTagController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F916ABF667117BED7CDCC2FC449B6 /* Pods-dnaTagController_Example-dummy.m */; };
+		2BDBD57D66E439BF60A2F22287B27647 /* dnaTagController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E420397E2BF944575B60FA763225306 /* dnaTagController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B448BCFA0FBEE29ACA664D5F2E2FF92 /* Taggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E45C37C03F623E249FC38E78AD04A55 /* Taggable.swift */; };
+		63225D816E1D0819427EE7AC8B355D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		66587AA419ABB52FE6DABFC80FA06D2E /* Pods-dnaTagController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 459EDE8D07BB080453ED11BC9CA6EDB2 /* Pods-dnaTagController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6863FAC2B97B394ED9E2071C9F065810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CAA6F87DD32C6EA1E4640AF3B920A193 /* TagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70745217C1AFCE235D791876B59F94 /* TagController.swift */; };
+		D05A87873459593D8B8A101EE5E9F68F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D11D15417F5C39E21F18674BCBB7030B /* dnaTagController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB22D239DB312F1F5521E588C529C3A6 /* dnaTagController-dummy.m */; };
+		D539EDC33F0594C2BCB0111A50A4EEE1 /* Pods-dnaTagController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D391D18BC92EBA0C2AEF75D8B8796FB /* Pods-dnaTagController_Tests-dummy.m */; };
+		FBB2ECF688F59D4F9E67E45E320A6C8E /* Pods-dnaTagController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF45CA337F1E3C185A8A565785C19B42 /* Pods-dnaTagController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C10C07A2B45857E4D6AE9F4E799E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999ACF4AFA9BA15391BC1C2AE5C6121F;
+			remoteInfo = dnaTagController;
+		};
+		F81AD569E0E52C5B7C6CFD84604E67E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999ACF4AFA9BA15391BC1C2AE5C6121F;
+			remoteInfo = dnaTagController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A42A21389F2AA1ACDF5287E2656134F /* Pods-dnaTagController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dnaTagController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FC74FBCB35C4014918A302D159857BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAD75462F91AB06939405F38F1CBC87 /* Pods-dnaTagController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaTagController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		331FC700761F5456D8C690A83093BE62 /* Pods-dnaTagController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaTagController_Example-resources.sh"; sourceTree = "<group>"; };
+		3D391D18BC92EBA0C2AEF75D8B8796FB /* Pods-dnaTagController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dnaTagController_Tests-dummy.m"; sourceTree = "<group>"; };
+		42157E134D7CE43284B657161E1066BA /* Pods_dnaTagController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dnaTagController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459EDE8D07BB080453ED11BC9CA6EDB2 /* Pods-dnaTagController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dnaTagController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4D30D1C59834A6FE841E168E15D147B4 /* Pods-dnaTagController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dnaTagController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		530EC8B9705A45681166CF7B4CACBD0A /* Pods-dnaTagController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaTagController_Tests-resources.sh"; sourceTree = "<group>"; };
+		59870F9A116249CB1EE3C92D4FB5D770 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABDF080B8205D275469A572EBB2D3FD /* Pods-dnaTagController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaTagController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D7E99FC3D13FA20674D6C50DF97B2BA /* Pods-dnaTagController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaTagController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		629964F301F640D65BED9F55FFBFB646 /* Pods-dnaTagController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-dnaTagController_Tests.modulemap"; sourceTree = "<group>"; };
+		6E45C37C03F623E249FC38E78AD04A55 /* Taggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Taggable.swift; sourceTree = "<group>"; };
+		6FE9A2B57B231FC63AC680E85EEB4533 /* dnaTagController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = dnaTagController.modulemap; sourceTree = "<group>"; };
+		7E420397E2BF944575B60FA763225306 /* dnaTagController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaTagController-umbrella.h"; sourceTree = "<group>"; };
+		8227C00AB47942A92FEA06EE7E85012B /* dnaTagController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dnaTagController.xcconfig; sourceTree = "<group>"; };
+		8C8F2FA4A02B4A76AC049ADD7B392A87 /* Pods-dnaTagController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaTagController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		915623CF6521807D9B020E6F6792D76A /* Pods-dnaTagController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-dnaTagController_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0923D8FF381BC3D92A61B5E9983DFD2 /* Pods-dnaTagController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaTagController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC016F1F7F674F40C95A9CDD52D4594E /* Pods-dnaTagController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaTagController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD70745217C1AFCE235D791876B59F94 /* TagController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagController.swift; sourceTree = "<group>"; };
+		B1C055A96DEABF62DA9908E9166A37EC /* Pods_dnaTagController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dnaTagController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF45CA337F1E3C185A8A565785C19B42 /* Pods-dnaTagController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dnaTagController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB22D239DB312F1F5521E588C529C3A6 /* dnaTagController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dnaTagController-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD8F916ABF667117BED7CDCC2FC449B6 /* Pods-dnaTagController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dnaTagController_Example-dummy.m"; sourceTree = "<group>"; };
+		DB0D59C55002A66CA4576C85E6567ED7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E7BA91C10FA28B591C3DC1B2721A3D /* dnaTagController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaTagController-prefix.pch"; sourceTree = "<group>"; };
+		EE8DBD49669524BF34941A4E9054FFC1 /* Pods-dnaTagController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaTagController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E024B83F89B736250430986A1C250A /* dnaTagController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dnaTagController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86FDD3F65D8E01F0590A92D26A89EA2 /* Pods-dnaTagController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaTagController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FFC1A20EF2271F29718725943F10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6863FAC2B97B394ED9E2071C9F065810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746126D85B418252F78C21E534D51872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63225D816E1D0819427EE7AC8B355D91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6735097E7D67849539E032DF827747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A87873459593D8B8A101EE5E9F68F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6596CCD08139F9604179F6A3E1772A /* dnaTagController */ = {
+			isa = PBXGroup;
+			children = (
+				C5257E149C2F0BE4CDF167858567AC01 /* dnaTagController */,
+				9A1F765535CA5AC6AC70212F1A2E456B /* Support Files */,
+			);
+			name = dnaTagController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		29173523B09684A2938CBDB22CFE91D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4388F92D1951845D4B232505C4307911 /* Pods-dnaTagController_Example */,
+				C63043789000FB76B9F5AF2B4CB296AF /* Pods-dnaTagController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		296F452382C7CD26BF5377F8B6B8DB4B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D6596CCD08139F9604179F6A3E1772A /* dnaTagController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4388F92D1951845D4B232505C4307911 /* Pods-dnaTagController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				59870F9A116249CB1EE3C92D4FB5D770 /* Info.plist */,
+				915623CF6521807D9B020E6F6792D76A /* Pods-dnaTagController_Example.modulemap */,
+				0A42A21389F2AA1ACDF5287E2656134F /* Pods-dnaTagController_Example-acknowledgements.markdown */,
+				8C8F2FA4A02B4A76AC049ADD7B392A87 /* Pods-dnaTagController_Example-acknowledgements.plist */,
+				CD8F916ABF667117BED7CDCC2FC449B6 /* Pods-dnaTagController_Example-dummy.m */,
+				A0923D8FF381BC3D92A61B5E9983DFD2 /* Pods-dnaTagController_Example-frameworks.sh */,
+				331FC700761F5456D8C690A83093BE62 /* Pods-dnaTagController_Example-resources.sh */,
+				459EDE8D07BB080453ED11BC9CA6EDB2 /* Pods-dnaTagController_Example-umbrella.h */,
+				2EAD75462F91AB06939405F38F1CBC87 /* Pods-dnaTagController_Example.debug.xcconfig */,
+				5ABDF080B8205D275469A572EBB2D3FD /* Pods-dnaTagController_Example.release.xcconfig */,
+			);
+			name = "Pods-dnaTagController_Example";
+			path = "Target Support Files/Pods-dnaTagController_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				296F452382C7CD26BF5377F8B6B8DB4B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E453C2EB8E77EBF98D5F16B38E5B79C6 /* Products */,
+				29173523B09684A2938CBDB22CFE91D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1F765535CA5AC6AC70212F1A2E456B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9A2B57B231FC63AC680E85EEB4533 /* dnaTagController.modulemap */,
+				8227C00AB47942A92FEA06EE7E85012B /* dnaTagController.xcconfig */,
+				CB22D239DB312F1F5521E588C529C3A6 /* dnaTagController-dummy.m */,
+				E9E7BA91C10FA28B591C3DC1B2721A3D /* dnaTagController-prefix.pch */,
+				7E420397E2BF944575B60FA763225306 /* dnaTagController-umbrella.h */,
+				DB0D59C55002A66CA4576C85E6567ED7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/dnaTagController";
+			sourceTree = "<group>";
+		};
+		B46E47F6281D1C15AD7CC32404221D3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD70745217C1AFCE235D791876B59F94 /* TagController.swift */,
+				6E45C37C03F623E249FC38E78AD04A55 /* Taggable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5257E149C2F0BE4CDF167858567AC01 /* dnaTagController */ = {
+			isa = PBXGroup;
+			children = (
+				B46E47F6281D1C15AD7CC32404221D3C /* Classes */,
+			);
+			path = dnaTagController;
+			sourceTree = "<group>";
+		};
+		C63043789000FB76B9F5AF2B4CB296AF /* Pods-dnaTagController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC74FBCB35C4014918A302D159857BC /* Info.plist */,
+				629964F301F640D65BED9F55FFBFB646 /* Pods-dnaTagController_Tests.modulemap */,
+				4D30D1C59834A6FE841E168E15D147B4 /* Pods-dnaTagController_Tests-acknowledgements.markdown */,
+				5D7E99FC3D13FA20674D6C50DF97B2BA /* Pods-dnaTagController_Tests-acknowledgements.plist */,
+				3D391D18BC92EBA0C2AEF75D8B8796FB /* Pods-dnaTagController_Tests-dummy.m */,
+				F86FDD3F65D8E01F0590A92D26A89EA2 /* Pods-dnaTagController_Tests-frameworks.sh */,
+				530EC8B9705A45681166CF7B4CACBD0A /* Pods-dnaTagController_Tests-resources.sh */,
+				BF45CA337F1E3C185A8A565785C19B42 /* Pods-dnaTagController_Tests-umbrella.h */,
+				EE8DBD49669524BF34941A4E9054FFC1 /* Pods-dnaTagController_Tests.debug.xcconfig */,
+				AC016F1F7F674F40C95A9CDD52D4594E /* Pods-dnaTagController_Tests.release.xcconfig */,
+			);
+			name = "Pods-dnaTagController_Tests";
+			path = "Target Support Files/Pods-dnaTagController_Tests";
+			sourceTree = "<group>";
+		};
+		E453C2EB8E77EBF98D5F16B38E5B79C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E024B83F89B736250430986A1C250A /* dnaTagController.framework */,
+				B1C055A96DEABF62DA9908E9166A37EC /* Pods_dnaTagController_Example.framework */,
+				42157E134D7CE43284B657161E1066BA /* Pods_dnaTagController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D420F4C4AB5B7D1369A7C16DE8A7D09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB2ECF688F59D4F9E67E45E320A6C8E /* Pods-dnaTagController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AF2319295EF7AF85B26A81D134131E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66587AA419ABB52FE6DABFC80FA06D2E /* Pods-dnaTagController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAA66445EC31C94B5256DE894E94BEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDBD57D66E439BF60A2F22287B27647 /* dnaTagController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28DB1224080379FBCBA150C2B7380D8C /* Pods-dnaTagController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1D6284C25E0350BFD24F36497ABCF6 /* Build configuration list for PBXNativeTarget "Pods-dnaTagController_Example" */;
+			buildPhases = (
+				8F2FD46E3866F9D307D3F110DECF0FEE /* Sources */,
+				44FFC1A20EF2271F29718725943F10C6 /* Frameworks */,
+				61AF2319295EF7AF85B26A81D134131E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA65DF42B2E93E623269B4E54BE71E29 /* PBXTargetDependency */,
+			);
+			name = "Pods-dnaTagController_Example";
+			productName = "Pods-dnaTagController_Example";
+			productReference = B1C055A96DEABF62DA9908E9166A37EC /* Pods_dnaTagController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D76EBFD9E28AD0DAFEBA37D4660E7B3 /* Pods-dnaTagController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033D9C81A066435241F1B48DA1457AC6 /* Build configuration list for PBXNativeTarget "Pods-dnaTagController_Tests" */;
+			buildPhases = (
+				723DE0424FD1BB731B96DBBBB03806C8 /* Sources */,
+				7A6735097E7D67849539E032DF827747 /* Frameworks */,
+				0D420F4C4AB5B7D1369A7C16DE8A7D09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06B336CD5A423ABFA5CEC58AD9C9291 /* PBXTargetDependency */,
+			);
+			name = "Pods-dnaTagController_Tests";
+			productName = "Pods-dnaTagController_Tests";
+			productReference = 42157E134D7CE43284B657161E1066BA /* Pods_dnaTagController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		999ACF4AFA9BA15391BC1C2AE5C6121F /* dnaTagController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4964E168D7361C62FDE1347600AC13A3 /* Build configuration list for PBXNativeTarget "dnaTagController" */;
+			buildPhases = (
+				D110B21FA2C7BB9AFFDB485845D7EDC8 /* Sources */,
+				746126D85B418252F78C21E534D51872 /* Frameworks */,
+				BEAA66445EC31C94B5256DE894E94BEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dnaTagController;
+			productName = dnaTagController;
+			productReference = F5E024B83F89B736250430986A1C250A /* dnaTagController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E453C2EB8E77EBF98D5F16B38E5B79C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				999ACF4AFA9BA15391BC1C2AE5C6121F /* dnaTagController */,
+				28DB1224080379FBCBA150C2B7380D8C /* Pods-dnaTagController_Example */,
+				4D76EBFD9E28AD0DAFEBA37D4660E7B3 /* Pods-dnaTagController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723DE0424FD1BB731B96DBBBB03806C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D539EDC33F0594C2BCB0111A50A4EEE1 /* Pods-dnaTagController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2FD46E3866F9D307D3F110DECF0FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C89D899BD527DFD1348460720AB95BF /* Pods-dnaTagController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D110B21FA2C7BB9AFFDB485845D7EDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11D15417F5C39E21F18674BCBB7030B /* dnaTagController-dummy.m in Sources */,
+				CAA6F87DD32C6EA1E4640AF3B920A193 /* TagController.swift in Sources */,
+				5B448BCFA0FBEE29ACA664D5F2E2FF92 /* Taggable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA65DF42B2E93E623269B4E54BE71E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dnaTagController;
+			target = 999ACF4AFA9BA15391BC1C2AE5C6121F /* dnaTagController */;
+			targetProxy = F81AD569E0E52C5B7C6CFD84604E67E3 /* PBXContainerItemProxy */;
+		};
+		F06B336CD5A423ABFA5CEC58AD9C9291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dnaTagController;
+			target = 999ACF4AFA9BA15391BC1C2AE5C6121F /* dnaTagController */;
+			targetProxy = F4C10C07A2B45857E4D6AE9F4E799E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C6EBD700C3DBC36D2528317A563F96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8DBD49669524BF34941A4E9054FFC1 /* Pods-dnaTagController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaTagController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dnaTagController_Tests/Pods-dnaTagController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dnaTagController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1417B872D859DC55098949529EF34DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAD75462F91AB06939405F38F1CBC87 /* Pods-dnaTagController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaTagController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dnaTagController_Example/Pods-dnaTagController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dnaTagController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB9EFAEF515B421E6447D1590470387D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8227C00AB47942A92FEA06EE7E85012B /* dnaTagController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/dnaTagController/dnaTagController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dnaTagController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dnaTagController/dnaTagController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = dnaTagController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0E513EB7BAC0F85EF62027B5983B4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABDF080B8205D275469A572EBB2D3FD /* Pods-dnaTagController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaTagController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dnaTagController_Example/Pods-dnaTagController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dnaTagController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8BFB35284BEBF4DE8026C9ECA58AE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8227C00AB47942A92FEA06EE7E85012B /* dnaTagController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/dnaTagController/dnaTagController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dnaTagController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dnaTagController/dnaTagController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = dnaTagController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EACD61EEA0C30B5D8EA8836AED1C1D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC016F1F7F674F40C95A9CDD52D4594E /* Pods-dnaTagController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaTagController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dnaTagController_Tests/Pods-dnaTagController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dnaTagController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033D9C81A066435241F1B48DA1457AC6 /* Build configuration list for PBXNativeTarget "Pods-dnaTagController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6EBD700C3DBC36D2528317A563F96E /* Debug */,
+				EACD61EEA0C30B5D8EA8836AED1C1D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1D6284C25E0350BFD24F36497ABCF6 /* Build configuration list for PBXNativeTarget "Pods-dnaTagController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1417B872D859DC55098949529EF34DC /* Debug */,
+				E0E513EB7BAC0F85EF62027B5983B4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4964E168D7361C62FDE1347600AC13A3 /* Build configuration list for PBXNativeTarget "dnaTagController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9EFAEF515B421E6447D1590470387D /* Debug */,
+				E8BFB35284BEBF4DE8026C9ECA58AE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

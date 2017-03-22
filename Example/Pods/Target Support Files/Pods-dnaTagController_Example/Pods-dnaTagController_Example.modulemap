@@ -1,0 +1,6 @@
+framework module Pods_dnaTagController_Example {
+  umbrella header "Pods-dnaTagController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

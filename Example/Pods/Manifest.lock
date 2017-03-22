@@ -1,0 +1,16 @@
+PODS:
+  - dnaTagController (0.1.0)
+
+DEPENDENCIES:
+  - dnaTagController (from `../`)
+
+EXTERNAL SOURCES:
+  dnaTagController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  dnaTagController: bd5a91c8a2d9b9fe833082ab97f48f13d35bce71
+
+PODFILE CHECKSUM: a65d81f33598dcfddd1322ff848aa9f18afac7fb
+
+COCOAPODS: 1.2.0

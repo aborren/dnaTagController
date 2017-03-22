@@ -1,0 +1,6 @@
+framework module dnaTagController {
+  umbrella header "dnaTagController-umbrella.h"
+
+  export *
+  module * { export * }
+}

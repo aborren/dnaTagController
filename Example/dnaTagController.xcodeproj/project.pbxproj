@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A24BDDC51E80E7C2004C5BD7 /* TaggableTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BDDBA1E80DFA1004C5BD7 /* TaggableTestObject.swift */; };
+		A2E04CBE1E80EBC60059D83B /* TaggableTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BDDBA1E80DFA1004C5BD7 /* TaggableTestObject.swift */; };
 		B8E4446FF2B0019E8F17ABD4 /* Pods_dnaTagController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBD5026D593A784FEFEBCEB /* Pods_dnaTagController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +31,9 @@
 
 /* Begin PBXFileReference section */
 		2FBD5026D593A784FEFEBCEB /* Pods_dnaTagController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dnaTagController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3068DD3F3F90AD65AE971D75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3068DD3F3F90AD65AE971D75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		31320099FD819D0576E47271 /* Pods-dnaTagController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dnaTagController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dnaTagController_Tests/Pods-dnaTagController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C8E96ACE5CE44C53F1FFA4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C8E96ACE5CE44C53F1FFA4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* dnaTagController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dnaTagController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		716910DDAA875E95D3503963 /* Pods-dnaTagController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dnaTagController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-dnaTagController_Example/Pods-dnaTagController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BF6D88DA45EB373B9FE94E33 /* dnaTagController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = dnaTagController.podspec; path = ../dnaTagController.podspec; sourceTree = "<group>"; };
+		A24BDDBA1E80DFA1004C5BD7 /* TaggableTestObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggableTestObject.swift; sourceTree = "<group>"; };
+		BF6D88DA45EB373B9FE94E33 /* dnaTagController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = dnaTagController.podspec; path = ../dnaTagController.podspec; sourceTree = "<group>"; };
 		C1993F685EDB0B7B1A2429BD /* Pods-dnaTagController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dnaTagController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dnaTagController_Example/Pods-dnaTagController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA22352B881091E1E90A971 /* Pods-dnaTagController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dnaTagController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dnaTagController_Tests/Pods-dnaTagController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DCD6A8B0567017F4DE17C228 /* Pods_dnaTagController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dnaTagController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +109,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A24BDDBA1E80DFA1004C5BD7 /* TaggableTestObject.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -362,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A24BDDC51E80E7C2004C5BD7 /* TaggableTestObject.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				A2E04CBE1E80EBC60059D83B /* TaggableTestObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,10 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31320099FD819D0576E47271 /* Pods-dnaTagController_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -543,10 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAA22352B881091E1E90A971 /* Pods-dnaTagController_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
